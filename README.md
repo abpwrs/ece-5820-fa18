@@ -4,7 +4,7 @@
       
 ### Download this Repo:
 ```bash
-https://github.com/abpwrs/selt-fall-18.git
+git clone https://github.com/abpwrs/selt-fall-18.git
 ```
 
 ### Ruby version  
