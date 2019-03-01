@@ -4,7 +4,7 @@
       
 ### Download this Repo:
 ```bash
-git clone git@github.com:UIOWASELT2018/selt18project-g002.git
+https://github.com/abpwrs/selt-fall-18.git
 ```
 
 ### Ruby version  
