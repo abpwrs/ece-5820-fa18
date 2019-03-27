@@ -1,0 +1,23 @@
+%h1= "The following movies containing '#{@search_term}' were found on TMDb"
+
+=form_tag movies_add_tmdb_path, :method => :post, :id => 'selection_form' do
+
+  %table#movies
+    %thead
+      %tr
+        %th{id: 'title_header'} Movie Title
+        %th{id: 'rating_header'} Rating
+        %th{id: 'release_header'} Release Date
+        %th{id: 'select_header'} Select
+    %tbody
+      - @movies.each do |movie|
+        %tr
+          %td= movie[:title]
+          %td= movie[:rating]
+          %td= movie[:release_date]
+          %td=check_box_tag("tmdb_movies[#{movie[:tmdb_id]}]", "1", true, id: "checkbox_#{movie[:tmdb_id].to_s}")
+
+  = submit_tag 'Add Selected Movies', id: 'movies_button'
+
+%br
+= link_to 'Return to Movie List', movies_path
