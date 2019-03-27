@@ -1,6 +1,6 @@
-# Office Hours Queue
+# [Office Hours Queue](http://selt18project-g002-3.herokuapp.com/)
 ##### By: selt18project-g002
-    
+   
       
 ### Download this Repo:
 ```bash
