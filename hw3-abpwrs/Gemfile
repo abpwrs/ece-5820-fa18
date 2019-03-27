@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+ruby '>= 2.3.0'
+
+gem 'activemodel', '~> 5.2.1'
+gem 'byebug'
+gem 'nokogiri', '~> 1.8.1'
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-collection_matchers'
+  gem 'rspec-its'
+  gem 'webmock'
+end
+
+
