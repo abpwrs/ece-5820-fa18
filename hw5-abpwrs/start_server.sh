@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+bundle exec rails server -p $PORT -b $IP
